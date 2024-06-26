@@ -13,9 +13,10 @@ export default function Home() {
 
   return (
     <div>
-       <Head>
-        <title>My page title home</title>
-        <meta name="description" content="This is my page description" />
+      <Head>
+        <title>Home page - My Next.js App</title>
+        <meta name="description" content="Home page  Learn more Home page  and what we do at My Next.js App. Discover our mission and vision." />
+        <link rel="canonical" href="https://nextjstested.netlify.app/aboutt" />
       </Head>
       <h1>Welcome to the Home Page</h1>
       <button onClick={goToAbout}>Go to About Page</button>

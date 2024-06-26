@@ -12,9 +12,10 @@ export default function About() {
     return (
     
     <div>
-       <Head>
-        <title>about</title>
-        <meta name="description" content="This is my page description about" />
+      <Head>
+        <title>About Us - My Next.js App</title>
+        <meta name="description" content="About Us Learn more about us and what we do at My Next.js App. Discover our mission and vision." />
+        <link rel="canonical" href="https://nextjstested.netlify.app/" />
       </Head>
       <h1>About Us</h1>
       <button onClick={goToHome}>Go to Home Page</button>
